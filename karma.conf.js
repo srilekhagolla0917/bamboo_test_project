@@ -31,6 +31,7 @@ module.exports = function (config) {
       properties: {} // key value pair of properties to add to the section of the report
   },
     port: 9876,
+    concurrency: Infinity,
     colors: true,
     logLevel: config.LOG_INFO,
     autoWatch: true,
