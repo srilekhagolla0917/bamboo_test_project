@@ -22,4 +22,8 @@ describe('Tab1Page', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should fail', () => {
+    expect(component).toBeFalsy();
+  })
 });
